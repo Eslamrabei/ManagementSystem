@@ -11,8 +11,6 @@
 
 ## 🔎 Quick demo
 
-> Add screenshots inside `/assets` and reference them below.
-
 ![Login Page](assets/login.png) ![Register](assets/register.png) ![Departments](assets/deprtment.png)![Roles](assets/AssignRoles.png)![Users](assets/IdentityUser.png)![create Employee](assets/createEmployee.png)
 
 Live demo: **(add link here after deployment)**
@@ -66,15 +64,16 @@ bash
 git clone https://github.com/Eslamrabei/ManagmentSystem.git
 cd ManagmentSystem
 
-
+---
 
 ```
 ## Project structure
 
 /DemoSolution
-/Demo.PL # Presentation - Controllers, Views, wwwroot
-/Demo.BLL # Business logic - Services, DTOs, Mapping
-/Demo.DAL # Entities, EF Core Context, Repositories
+/Demo.PL    # Presentation - Controllers, Views, wwwroot
+/Demo.BLL   # Business logic - Services, DTOs, Mapping
+/Demo.DAL   # Entities, EF Core Context, Repositories
+/assets     # Images
 Demo.sln
 README.md
 .gitignore
