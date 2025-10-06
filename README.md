@@ -1,4 +1,4 @@
-# 💼 ManagementSystem — Employees & Departments
+# 💼 ManagementSystem 
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](#license)  
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](#) <!-- replace with real CI badge -->
