@@ -62,14 +62,14 @@ Live demo: **(add link here after deployment)**
 
 1. **Clone**
 
-```bash
+bash
 git clone https://github.com/Eslamrabei/ManagmentSystem.git
 cd ManagmentSystem
 
 
 
-## Project structure
 ```
+## Project structure
 
 /DemoSolution
 /Demo.PL # Presentation - Controllers, Views, wwwroot
@@ -81,4 +81,4 @@ README.md
 
 ```
 
-```
+
