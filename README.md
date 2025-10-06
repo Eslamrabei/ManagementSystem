@@ -13,7 +13,7 @@
 
 > Add screenshots inside `/assets` and reference them below.
 
-![Login Page](assets/login.png) ![Register](assets/register.png) ![Departments](assets/deprtment.png)![Roles](assets/AssignRoles.png)![create Employee](assets/createEmployee.png)
+![Login Page](assets/login.png) ![Register](assets/register.png) ![Departments](assets/deprtment.png)![Roles](assets/AssignRoles.png)![Users](assets/IdentityUser.png)![create Employee](assets/createEmployee.png)
 
 Live demo: **(add link here after deployment)**
 
