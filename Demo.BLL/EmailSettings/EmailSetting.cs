@@ -10,8 +10,8 @@ namespace Demo.BLL.EmailSettings
         {
             var Client = new SmtpClient("smtp.gmail.com", 587);
             Client.EnableSsl = true;
-            Client.Credentials = new NetworkCredential("eslamrabai5445@gmail.com", "odrodpdurkdtnclr");
-            Client.Send("eslamrabai5445@gmail.com", email.To, email.Subject, email.Body);
+            Client.Credentials = new NetworkCredential("Your Email", "Password");
+            Client.Send("Email", email.To, email.Subject, email.Body);
         }
     }
 }
