@@ -13,7 +13,7 @@
 
 > Add screenshots inside `/assets` and reference them below.
 
-![Login Page](assets/login.png) ![Dashboard](assets/dashboard.png) ![Employees](assets/employees.png)
+![Login Page](assets/login.png) ![Register](assets/register.png) ![Departments](assets/department.png)![Roles](assets/AssignRoles.png)![create Employee](assets/createEmployee.png)
 
 Live demo: **(add link here after deployment)**
 
@@ -39,7 +39,7 @@ Live demo: **(add link here after deployment)**
 
 ## 🧩 Tech stack
 
-- .NET 8 / ASP.NET Core MVC
+- .NET 9 / ASP.NET Core MVC
 - Entity Framework Core (SQL Server)
 - ASP.NET Core Identity
 - AutoMapper
