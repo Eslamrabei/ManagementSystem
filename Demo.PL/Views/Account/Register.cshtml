@@ -1,0 +1,81 @@
+﻿@model RegisterViewModel
+@{
+    ViewData["Title"] = "Register";
+    Layout = "~/Views/Shared/_authLayout.cshtml";
+}
+
+<div class="container d-flex justify-content-center align-items-center min-vh-100">
+    <div class="card shadow-lg p-4 auth-card rounded-4">
+        <h2 class="text-center mb-4 text-success fw-bold">Create Account</h2>
+
+        <form asp-action="Register" method="post" novalidate>
+            <div asp-validation-summary="All" class="text-danger mb-3"></div>
+
+            <!-- Username -->
+            <div class="mb-3 input-group">
+                <span class="input-group-text bg-success text-white"><i class="bi bi-person"></i></span>
+                <input asp-for="UserName" class="form-control" placeholder="Username" />
+            </div>
+            <span asp-validation-for="UserName" class="text-danger"></span>
+
+            <!-- Email -->
+            <div class="mb-3 input-group">
+                <span class="input-group-text bg-success text-white"><i class="bi bi-envelope"></i></span>
+                <input asp-for="Email" class="form-control" placeholder="Email" />
+            </div>
+            <span asp-validation-for="Email" class="text-danger"></span>
+
+            <!-- First Name -->
+            <div class="mb-3 input-group">
+                <span class="input-group-text bg-success text-white"><i class="bi bi-card-text"></i></span>
+                <input asp-for="FirstName" class="form-control" placeholder="First Name" />
+            </div>
+            <span asp-validation-for="FirstName" class="text-danger"></span>
+
+            <!-- Last Name -->
+            <div class="mb-3 input-group">
+                <span class="input-group-text bg-success text-white"><i class="bi bi-card-text"></i></span>
+                <input asp-for="LastName" class="form-control" placeholder="Last Name" />
+            </div>
+            <span asp-validation-for="LastName" class="text-danger"></span>
+
+            <!-- Password -->
+            <div class="mb-3 input-group">
+                <span class="input-group-text bg-success text-white"><i class="bi bi-lock"></i></span>
+                <input asp-for="Password" class="form-control" placeholder="Password" type="password" />
+            </div>
+            <span asp-validation-for="Password" class="text-danger"></span>
+
+            <!-- Confirm Password -->
+            <div class="mb-3 input-group">
+                <span class="input-group-text bg-success text-white"><i class="bi bi-lock-fill"></i></span>
+                <input asp-for="ConfirmPassword" class="form-control" placeholder="Confirm Password" type="password" />
+            </div>
+            <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+            <!-- Phone Number -->
+            <div class="mb-3 input-group">
+                <span class="input-group-text bg-success text-white"><i class="bi bi-telephone-fill"></i></span>
+                <input asp-for="PhoneNumber" class="form-control" placeholder="Phone Number" type="text" />
+            </div>
+            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+
+            <!-- Terms & Conditions -->
+            <div class="form-check mb-3">
+                <input asp-for="isAgree" class="form-check-input" type="checkbox" />
+                <label asp-for="isAgree" class="form-check-label">
+                    I Agree To The Terms & Conditions
+                </label>
+            </div>
+
+            <!-- Submit -->
+            <button type="submit" class="btn btn-success w-100 fw-bold py-2 rounded-pill">
+                Sign Up
+            </button>
+        </form>
+
+        <p class="text-center mt-3 text-white">
+            Already have an account?
+            <a asp-action="Login" class="text-warning fw-bold">Login Now!</a>
+        </p>
+    </div>
+</div>
