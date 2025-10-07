@@ -13,8 +13,6 @@
 
 ![Login Page](assets/login.png) ![Register](assets/register.png) ![Departments](assets/deprtment.png)![Roles](assets/AssignRoles.png)![Users](assets/IdentityUser.png)![create Employee](assets/createEmployee.png)
 
-Live demo: **(add link here after deployment)**
-
 ---
 
 ## ✨ Features
@@ -43,7 +41,7 @@ Live demo: **(add link here after deployment)**
 - AutoMapper
 - Bootstrap 5 + Bootstrap Icons
 - jQuery (light use) and small custom JS
-- (Optional) Docker & GitHub Actions for CI
+- GitHub Actions for CI
 
 ---
 
@@ -61,7 +59,7 @@ Live demo: **(add link here after deployment)**
 1. **Clone**
 
 bash
-git clone https://github.com/Eslamrabei/ManagmentSystem.git
+git clone https://github.com/Eslamrabei/ManagementSystem.git
 cd ManagmentSystem
 
 ---
