@@ -65,7 +65,7 @@ cd ManagmentSystem
 ---
 
 ```
-## Project structure
+Project structure
 
 /DemoSolution
 /Demo.PL    # Presentation - Controllers, Views, wwwroot
